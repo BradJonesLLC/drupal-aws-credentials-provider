@@ -1,0 +1,24 @@
+{
+    "name": "bradjonesllc/drupal-aws-credentials-provider",
+    "description": "AWS Credentials provider for Drupal",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "keywords": ["aws"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Brad Jones",
+            "email": "brad@bradjonesllc.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3",
+        "drupal/core": "^8",
+        "drupal/key": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BradJonesLLC\\DrupalAwsCredentialsProvider\\": "src"
+        }
+    },
+}
